@@ -1,0 +1,229 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Streza = Instance.new("ScreenGui")
+local TextButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local discord = Instance.new("TextButton")
+local execute = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local BackLoadBar = Instance.new("Frame")
+local LoadBar = Instance.new("Frame")
+
+--Properties:
+
+Streza.Name = "Streza"
+Streza.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+TextButton.Parent = Streza
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.647768617, 0, 0.505300224, 0)
+TextButton.Size = UDim2.new(0, 14, 0, 17)
+TextButton.ZIndex = 4
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(170, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextLabel.Parent = Streza
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.475667268, 0, 0.495877504, 0)
+TextLabel.Size = UDim2.new(0, 169, 0, 34)
+TextLabel.ZIndex = 3
+TextLabel.Font = Enum.Font.GothamSemibold
+TextLabel.Text = "S T R E Z A"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+discord.Name = "discord"
+discord.Parent = Streza
+discord.BackgroundColor3 = Color3.fromRGB(39, 39, 39)
+discord.BackgroundTransparency = 1.000
+discord.BorderColor3 = Color3.fromRGB(27, 27, 27)
+discord.BorderSizePixel = 0
+discord.Position = UDim2.new(0.496424615, 0, 0.531161308, 0)
+discord.Size = UDim2.new(0, 104, 0, 18)
+discord.ZIndex = 2
+discord.Font = Enum.Font.GothamSemibold
+discord.Text = "Discord: M3b3RUD"
+discord.TextColor3 = Color3.fromRGB(255, 255, 255)
+discord.TextScaled = true
+discord.TextSize = 30.000
+discord.TextWrapped = true
+
+execute.Name = "execute"
+execute.Parent = Streza
+execute.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+execute.BorderColor3 = Color3.fromRGB(27, 27, 27)
+execute.BorderSizePixel = 0
+execute.Position = UDim2.new(0.49366492, 0, 0.656091213, 0)
+execute.Size = UDim2.new(0, 113, 0, 32)
+execute.Visible = false
+execute.ZIndex = 5
+execute.Font = Enum.Font.GothamSemibold
+execute.Text = "Execute"
+execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+execute.TextScaled = true
+execute.TextSize = 14.000
+execute.TextWrapped = true
+
+Frame.Parent = Streza
+Frame.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Frame.BorderColor3 = Color3.fromRGB(53, 53, 53)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.394091755, 0, 0.495877504, 0)
+Frame.Size = UDim2.new(0, 430, 0, 189)
+
+BackLoadBar.Name = "BackLoadBar"
+BackLoadBar.Parent = Streza
+BackLoadBar.BackgroundColor3 = Color3.fromRGB(57, 57, 57)
+BackLoadBar.BackgroundTransparency = 0.600
+BackLoadBar.BorderColor3 = Color3.fromRGB(53, 53, 53)
+BackLoadBar.BorderSizePixel = 0
+BackLoadBar.Position = UDim2.new(0.39723444, 0, 0.614840984, 0)
+BackLoadBar.Size = UDim2.new(0, 420, 0, 36)
+BackLoadBar.ZIndex = 2
+
+LoadBar.Name = "LoadBar"
+LoadBar.Parent = Streza
+LoadBar.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LoadBar.BorderColor3 = Color3.fromRGB(53, 53, 53)
+LoadBar.BorderSizePixel = 0
+LoadBar.Position = UDim2.new(0.397862971, 0, 0.614840984, 0)
+LoadBar.Size = UDim2.new(0, 5, 0, 36)
+LoadBar.ZIndex = 2
+
+-- Scripts:
+
+local function JBRPAE_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(JBRPAE_fake_script)()
+local function LDZMZLN_fake_script() -- TextLabel.Streza Colors 
+	local script = Instance.new('LocalScript', TextLabel)
+
+	
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+		 script.Parent.TextColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	 
+	 counter = counter + 0.01
+	end
+end
+coroutine.wrap(LDZMZLN_fake_script)()
+local function TARVOZT_fake_script() -- execute.Games Execution 
+	local script = Instance.new('LocalScript', execute)
+
+	print("Streza Is Currently In [BETA Testing] Join Our Discord @ https://discord.gg/M3b3RUD")
+	--PIGGY------------------------------------------------------------------------------------------------------PIGGY-----------------------------
+	script.Parent.MouseButton1Click:Connect(function()
+		if game.PlaceId == 4623386862
+		then loadstring(game:HttpGet("https://raw.githubusercontent.com/joeengo/PiggyHax/master/Piggy%20Hax.txt", true))()
+		end
+		wait(0.08)
+		script.Parent.Parent.Parent:Destroy()
+	end)
+	--PIGGY----------------------------------------------------------------------------------------------------------------------------------------
+	--JAILBREAK------------------------------------------------------------------------------------------------------------------------------------
+	script.Parent.MouseButton1Click:Connect(function()
+		if game.PlaceId == 606849621
+		then loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal.lua", true))()
+		end
+		wait(0.08)
+		script.Parent.Parent.Parent:Destroy()
+	end)
+	--Jailbreak------------------------------------------------------------------------------------------------------------------------------------
+	--adopt me-------------------------------------------------------------------------------------------------------------------------------------
+	script.Parent.MouseButton1Click:Connect(function()
+		if game.PlaceId == 920587237
+		then
+		    loadstring(game:HttpGet("http://stockerperso.me/scripts/haxxme.lua", true))()
+		end
+		wait(0.08)
+		script.Parent.Parent.Parent:Destroy()
+	end)
+	--Adopt Me-------------------------------------------------------------------------------------------------------------------------------------
+	--Arsenal--------------------------------------------------------------------------------------------------------------------------------------
+	script.Parent.MouseButton1Click:Connect(function()
+		if game.PlaceId == 286090429
+		then
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/joeengo/arsenalgui/master/script", true))()
+		end
+		wait(0.08)
+		script.Parent.Parent.Parent:Destroy()
+	end)
+	--Arsenal---------------------------------------------------------------------------------------------------------------------------------------
+
+	--TOH-------------------------------------------------------------------------------------------------------------------------------------------
+	script.Parent.MouseButton1Click:Connect(function()
+	    if game.PlaceId == 1962086868
+	    then
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/RomanIsAFuckBoy/Romans-TOH-Crusher/master/Vermillion", true))()
+	    end
+	    wait(0.08)
+	    script.Parent.Parent.Parent:Destroy()
+	end)
+	--TOH-------------------------------------------------------------------------------------------------------------------------------------------
+	--Ninja-Legends---------------------------------------------------------------------------------------------------------------------------------
+	script.Parent.MouseButton1Click:Connect(function()
+	    if game.PlaceId == 3956818381
+	    then
+	loadstring(game:HttpGet('https://system-exodus.com/scripts/ninjalegends/NinjaLegendsV3.lua',true))()
+	    end
+	    wait(0.08)
+	    script.Parent.Parent.Parent:Destroy()
+	end)
+	--Ninja-Legends---------------------------------------------------------------------------------------------------------------------------------
+	--Big-Paintball---------------------------------------------------------------------------------------------------------------------------------
+	script.Parent.MouseButton1Click:Connect(function()
+	    if game.PlaceId == 3527629287
+	    then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/bigpaintball/master/script',true))()
+	    end
+	    wait(0.08)
+	    script.Parent.Parent.Parent:Destroy()
+	end)
+	--Big-Paintball---------------------------------------------------------------------------------------------------------------------------------
+end
+coroutine.wrap(TARVOZT_fake_script)()
+local function FLZF_fake_script() -- LoadBar.Script 
+	local script = Instance.new('Script', LoadBar)
+
+	wait(0.05)
+	script.Parent:TweenSize(UDim2.new(0, 420,0, 36), Enum.EasingDirection.In, Enum.EasingStyle.Linear, 5)
+	wait(5.01)
+	script.Parent.Parent.execute.Visible = true
+	
+end
+coroutine.wrap(FLZF_fake_script)()
+local function VDEYHE_fake_script() -- LoadBar.Streza Colors 
+	local script = Instance.new('LocalScript', LoadBar)
+
+	
+	function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+	counter = 0
+	
+	while wait(0.1)do
+	 script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	 
+	 counter = counter + 0.01
+	end
+end
+coroutine.wrap(VDEYHE_fake_script)()
